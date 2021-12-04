@@ -1,0 +1,22 @@
+{
+  "name": "for_jenkins",
+  "version": "1.0.0",
+  "description": "simple package with a function and tests for it. Intended to be used with Jenkins for educational purposes",
+  "main": "script.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zentestuken/for_jenkins.git"
+  },
+  "author": "zentestuken",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}
